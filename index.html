@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Websites That Bring You Customers</title>
+    <title>Webgrowth — Modern Websites for Small Businesses</title>
     <meta name="description"
-        content="Get more customers through Google. Modern, mobile-friendly websites for small businesses.">
+        content="I build modern, fast websites for small businesses. Get a professional site in just a few days — starting from 3000 SEK.">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap"
         rel="stylesheet">
     <!-- Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
@@ -23,283 +23,452 @@
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="#" class="logo">
-                <i class="ph-fill ph-rocket-launch"></i>
+                <div class="logo-icon">
+                    <i class="ph-fill ph-rocket-launch"></i>
+                </div>
                 <span>Webgrowth</span>
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
                 <a href="#services">Services</a>
                 <a href="#process">How it works</a>
-                <a href="#visibility">Google Visibility</a>
+                <a href="#portfolio">Examples</a>
+                <a href="#pricing">Pricing</a>
             </div>
-            <a href="#contact" class="btn btn-primary btn-sm nav-btn">Contact me</a>
+            <a href="#contact" class="btn btn-primary btn-sm nav-cta">Get a free demo</a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-bg-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-        </div>
+    <header class="hero" id="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-grid-bg"></div>
         <div class="container hero-container">
             <div class="hero-content">
-                <div class="badge">
+                <div class="badge reveal">
                     <span class="pulse-dot"></span>
-                    Websites for Small Businesses
+                    Available for new projects
                 </div>
-                <h1>Get more customers through Google</h1>
-                <p class="hero-subline">I build simple websites that help your business get found online.</p>
-
-                <div class="hero-actions">
-                    <a href="#contact" class="btn btn-primary btn-lg">Contact me</a>
-                    <a href="#contact" class="btn btn-outline btn-lg">Get a free demo</a>
+                <h1 class="reveal">I build modern websites<br>for small businesses</h1>
+                <p class="hero-sub reveal">Get a fast, professional website in just a few days. No upfront payment — you only pay if you love it.</p>
+                <div class="hero-actions reveal">
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        <i class="ph-bold ph-paper-plane-tilt"></i>
+                        Get a free demo
+                    </a>
+                    <a href="#portfolio" class="btn btn-ghost btn-lg">
+                        <i class="ph-bold ph-eye"></i>
+                        See examples
+                    </a>
+                </div>
+                <div class="hero-trust reveal">
+                    <div class="trust-item">
+                        <i class="ph-fill ph-check-circle"></i>
+                        <span>Free demo first</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="ph-fill ph-check-circle"></i>
+                        <span>Live in days</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="ph-fill ph-check-circle"></i>
+                        <span>Mobile-friendly</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="hero-visual">
-                <div class="glass-card mockup-card main-mockup">
-                    <div class="mockup-header">
-                        <div class="dots">
-                            <span class="dot" style="background:var(--accent-red)"></span>
-                            <span class="dot" style="background:#facc15"></span>
-                            <span class="dot" style="background:var(--accent-green)"></span>
+            <div class="hero-visual reveal">
+                <div class="mockup-window">
+                    <div class="mockup-toolbar">
+                        <div class="mockup-dots">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <div class="mockup-url">
+                            <i class="ph ph-lock-simple"></i>
+                            <span>yourbusiness.se</span>
                         </div>
                     </div>
                     <div class="mockup-body">
-                        <div class="mockup-nav">
-                            <div class="logo">Webgrowth</div>
-                            <div class="nav-links">
+                        <div class="mockup-nav-bar">
+                            <span class="mockup-logo">YourBiz</span>
+                            <div class="mockup-nav-items">
                                 <span>Home</span>
                                 <span>Services</span>
                                 <span>Contact</span>
                             </div>
                         </div>
-
-                        <div class="mockup-content mt-lg">
-                            <h2>Small Buisness website</h2>
-                            <p class="mt-sm">
-                                Book your appointment today or contact us directly on WhatsApp.
-                            </p>
-                            <p class="mt-sm">
-                                Find us easily on Google Maps and visit us in the city center.
-                            </p>
-
-                            <button class="mockup-btn mt-md">Book Now</button>
+                        <div class="mockup-hero-area">
+                            <div class="mockup-headline"></div>
+                            <div class="mockup-text"></div>
+                            <div class="mockup-text short"></div>
+                            <div class="mockup-cta-btn">Book Now</div>
+                        </div>
+                        <div class="mockup-cards">
+                            <div class="mockup-card-item"></div>
+                            <div class="mockup-card-item"></div>
+                            <div class="mockup-card-item"></div>
                         </div>
                     </div>
+                </div>
+                <div class="floating-badge badge-speed">
+                    <i class="ph-fill ph-lightning"></i>
+                    <span>Fast load</span>
+                </div>
+                <div class="floating-badge badge-mobile">
+                    <i class="ph-fill ph-device-mobile"></i>
+                    <span>Responsive</span>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Problem / Solution Section -->
-    <section class="problem-solution" id="problem">
-        <div class="container">
-            <div class="grid-2 gap-lg">
-                <!-- Problem Side -->
-                <div class="glass-container problem-box border-red">
-                    <div class="icon-circle red-bg">
-                        <i class="ph-fill ph-warning-circle"></i>
-                    </div>
-                    <h2>Is your business missing out?</h2>
-                    <ul class="feature-list">
-                        <li>
-                            <i class="ph-bold ph-x text-red"></i>
-                            <span>Customers can't find your business online</span>
-                        </li>
-                        <li>
-                            <i class="ph-bold ph-x text-red"></i>
-                            <span>No website or outdated website</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Solution Side -->
-                <div class="glass-container solution-box border-green">
-                    <div class="icon-circle green-bg">
-                        <i class="ph-fill ph-check-circle"></i>
-                    </div>
-                    <h2>The Simple Solution</h2>
-                    <ul class="feature-list">
-                        <li>
-                            <i class="ph-bold ph-check text-green"></i>
-                            <span>I build a modern website</span>
-                        </li>
-                        <li>
-                            <i class="ph-bold ph-check text-green"></i>
-                            <span>I help you appear on Google and Google Maps</span>
-                        </li>
-                        <li>
-                            <i class="ph-bold ph-check text-green"></i>
-                            <span>I help with SEO</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Services Section -->
-    <section class="services bg-surface" id="services">
+    <section class="services" id="services">
         <div class="container">
-            <div class="section-title center w-md mx-auto">
-                <h2>Services I offer</h2>
-                <p>Everything you need for a professional online presence. No fluff, just results.</p>
+            <div class="section-header">
+                <span class="section-tag reveal">What I offer</span>
+                <h2 class="reveal">Everything you need to get online</h2>
+                <p class="section-desc reveal">A complete package to launch your business on the web — no technical knowledge required.</p>
             </div>
 
-            <div class="grid-2 mt-lg visibility-grid">
-                <div class="feature-card reveal">
-                    <div class="icon-sq bg-blue-light text-primary">
-                        <i class="ph-fill ph-check-circle"></i>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="ph-fill ph-paint-brush"></i>
                     </div>
-                    <h3>Building modern, fast, mobile-friendly websites</h3>
-                    <p>Clean and beautiful design that works perfectly on any phone, tablet, or computer.</p>
+                    <h3>Website Design</h3>
+                    <p>Clean, modern design tailored to your brand. Your site will look great on every device and make a strong first impression.</p>
                 </div>
 
-                <div class="feature-card reveal" style="transition-delay: 150ms;">
-                    <div class="icon-sq bg-green-light text-green">
-                        <i class="ph-fill ph-magnifying-glass"></i>
+                <div class="service-card reveal">
+                    <div class="service-icon icon-green">
+                        <i class="ph-fill ph-lightning"></i>
                     </div>
-                    <h3>Basic SEO</h3>
-                    <p>Optimizing your website so that the website can be found on Google by local customers.</p>
+                    <h3>Fast & Responsive</h3>
+                    <p>Optimized for speed and built mobile-first. Your customers won't wait — and neither will your website.</p>
                 </div>
 
-                <div class="feature-card reveal" style="transition-delay: 300ms;">
-                    <div class="icon-sq bg-yellow-light text-yellow">
-                        <i class="ph-fill ph-map-pin"></i>
+                <div class="service-card reveal">
+                    <div class="service-icon icon-amber">
+                        <i class="ph-fill ph-cloud-arrow-up"></i>
                     </div>
-                    <h3>Google Maps / Google Business setup</h3>
-                    <p>Ensuring your location and business hours are correctly listed so people can find you.</p>
+                    <h3>Hosting Setup</h3>
+                    <p>I deploy your site on Netlify for free, reliable hosting. No monthly fees, no complicated setup on your end.</p>
                 </div>
 
-                <div class="feature-card reveal" style="transition-delay: 450ms;">
-                    <div class="icon-sq bg-blue-light text-primary">
-                        <i class="ph-fill ph-chats-circle"></i>
+                <div class="service-card reveal">
+                    <div class="service-icon icon-rose">
+                        <i class="ph-fill ph-gift"></i>
                     </div>
-                    <h3>Contact features</h3>
-                    <p>Forms and WhatsApp integration so clients can reach you directly from your site.</p>
+                    <h3>Custom Demo First</h3>
+                    <p>I build a working preview of your website before you pay a single krona. No risk, no commitment.</p>
                 </div>
-            </div>
-            <div class=" mt-lg visibility-grid">
-            <div class="feature-card reveal mx-auto mt-lg" style="max-width: 720px; transition-delay: 600ms;">
-                <div class="icon-sq bg-green-light text-green">
-                    <i class="ph-fill ph-gift"></i>
-                </div>
-                <h3>Hosting</h3>
-                <p>I help you host the website for free</p>
-            </div>
             </div>
         </div>
     </section>
 
     <!-- How It Works -->
-    <section class="process bg-dark text-white" id="process">
+    <section class="process" id="process">
         <div class="container">
-            <div class="section-title center w-md mx-auto">
-                <h2 class="text-white">How it works</h2>
-                <p class="text-light">A completely simple process.</p>
+            <div class="section-header">
+                <span class="section-tag reveal">Simple process</span>
+                <h2 class="reveal">How it works</h2>
+                <p class="section-desc reveal">Three easy steps from idea to a live website. No technical skills needed.</p>
             </div>
 
-            <div class="process-steps mt-lg">
-                <div class="step">
-                    <div class="step-num">1</div>
-                    <h3>You contact me</h3>
-                    <p>Send a quick message. We'll chat about your business goals and what you need.</p>
+            <div class="steps-container">
+                <div class="step reveal">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>You tell me about your business</h3>
+                        <p>Send a quick message describing your business — what you do, who your customers are, and what you'd like on your website.</p>
+                    </div>
                 </div>
-                <div class="step-connector"></div>
-                <div class="step">
-                    <div class="step-num">2</div>
-                    <h3>I build a demo</h3>
-                    <p>I will create a free preview of your new website. No commitment required.</p>
+
+                <div class="step-line"></div>
+
+                <div class="step reveal">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>I build a free demo website</h3>
+                        <p>Within a few days you'll receive a complete, working preview of your new site. If you don't like it — no charge.</p>
+                    </div>
                 </div>
-                <div class="step-connector d-none-mobile"></div>
-                <div class="step">
-                    <div class="step-num">3</div>
-                    <h3>We publish your website</h3>
-                    <p>If you love it, we launch it. Your business is now online and ready for customers.</p>
+
+                <div class="step-line"></div>
+
+                <div class="step reveal">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>You approve → we publish it live</h3>
+                        <p>Happy with the result? I connect your domain and launch it. Your business is now online and ready for customers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-cta reveal">
+                <a href="#contact" class="btn btn-primary btn-lg">
+                    <i class="ph-bold ph-paper-plane-tilt"></i>
+                    Start the process
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">My work</span>
+                <h2 class="reveal">Example websites</h2>
+                <p class="section-desc reveal">Here are a few examples of what your website could look like.</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <a href="#contact" class="portfolio-card reveal">
+                    <div class="portfolio-preview">
+                        <div class="portfolio-mockup">
+                            <div class="pm-header">
+                                <span class="pm-logo">Bella Cucina</span>
+                            </div>
+                            <div class="pm-hero" style="background: linear-gradient(135deg, #fbbf24, #f59e0b);">
+                                <span class="pm-title">Italian Restaurant</span>
+                                <span class="pm-subtitle">Book your table today</span>
+                            </div>
+                            <div class="pm-cards">
+                                <div class="pm-card-item"></div>
+                                <div class="pm-card-item"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <span class="overlay-label">
+                                <i class="ph-bold ph-arrow-up-right"></i>
+                                Contact me for something similar
+                            </span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Restaurant Website</h3>
+                        <p>Menu, reservations, and location — all in one sleek page.</p>
+                    </div>
+                </a>
+
+                <a href="#contact" class="portfolio-card reveal">
+                    <div class="portfolio-preview">
+                        <div class="portfolio-mockup">
+                            <div class="pm-header">
+                                <span class="pm-logo">KlippKraft</span>
+                            </div>
+                            <div class="pm-hero" style="background: linear-gradient(135deg, #a78bfa, #7c3aed);">
+                                <span class="pm-title">Hair Salon</span>
+                                <span class="pm-subtitle">Style with confidence</span>
+                            </div>
+                            <div class="pm-cards">
+                                <div class="pm-card-item"></div>
+                                <div class="pm-card-item"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <span class="overlay-label">
+                                <i class="ph-bold ph-arrow-up-right"></i>
+                                Contact me for something similar
+                            </span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Salon & Spa</h3>
+                        <p>Online booking, services, and a gallery to showcase work.</p>
+                    </div>
+                </a>
+
+                <a href="#contact" class="portfolio-card reveal">
+                    <div class="portfolio-preview">
+                        <div class="portfolio-mockup">
+                            <div class="pm-header">
+                                <span class="pm-logo">RenRör AB</span>
+                            </div>
+                            <div class="pm-hero" style="background: linear-gradient(135deg, #34d399, #059669);">
+                                <span class="pm-title">Plumbing Services</span>
+                                <span class="pm-subtitle">Fast & reliable</span>
+                            </div>
+                            <div class="pm-cards">
+                                <div class="pm-card-item"></div>
+                                <div class="pm-card-item"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <span class="overlay-label">
+                                <i class="ph-bold ph-arrow-up-right"></i>
+                                Contact me for something similar
+                            </span>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Local Service Business</h3>
+                        <p>Contact info, services list, and Google Maps integration.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Transparent pricing</span>
+                <h2 class="reveal">Simple, honest pricing</h2>
+                <p class="section-desc reveal">No hidden fees. No monthly subscriptions. One price — everything included.</p>
+            </div>
+
+            <div class="pricing-card reveal">
+                <div class="pricing-top">
+                    <span class="pricing-label">Complete website package</span>
+                    <div class="pricing-amount">
+                        <span class="price-range">3 000 – 4 000</span>
+                        <span class="price-currency">SEK</span>
+                    </div>
+                    <p class="pricing-note">One-time payment · no recurring fees</p>
+                </div>
+                <div class="pricing-features">
+                    <ul>
+                        <li>
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>Custom design tailored to your brand</span>
+                        </li>
+                        <li>
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>Mobile-responsive on all devices</span>
+                        </li>
+                        <li>
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>Fast, optimized performance</span>
+                        </li>
+                        <li>
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>Free deployment & hosting setup</span>
+                        </li>
+                        <li>
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>Basic SEO so Google can find you</span>
+                        </li>
+                        <li>
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>Contact form or WhatsApp integration</span>
+                        </li>
+                        <li>
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>2 weeks of free support after launch</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pricing-bottom">
+                    <a href="#contact" class="btn btn-primary btn-lg btn-block">
+                        <i class="ph-bold ph-paper-plane-tilt"></i>
+                        Get your free demo
+                    </a>
+                    <p class="pricing-guarantee">
+                        <i class="ph-fill ph-shield-check"></i>
+                        You only pay if you're happy with the result
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Google Visibility Section -->
-    <section class="visibility" id="visibility">
+    <!-- About Me Section -->
+    <section class="about" id="about">
         <div class="container">
-            <div class="section-title center w-md mx-auto">
-                <h2>Helping your business get found</h2>
-                <p>Ensure customers find you exactly when they are searching locally.</p>
-            </div>
-
-            <div class="grid-3 mt-lg visibility-grid">
-                <div class="feature-card reveal">
-                    <div class="icon-sq bg-blue-light text-primary">
-                        <i class="ph-fill ph-map-pin"></i>
+            <div class="about-wrapper reveal">
+                <div class="about-text">
+                    <span class="section-tag">About me</span>
+                    <h2>Hi, I'm the developer behind Webgrowth</h2>
+                    <p>I'm a developer who enjoys helping small businesses get online quickly and affordably. I know that not every business needs a complex, expensive website — sometimes a clean, fast one-pager is all it takes to start getting customers from Google.</p>
+                    <p>I focus on delivering real results: a website that looks professional, loads fast, and actually helps your business grow. No jargon, no unnecessary complexity — just a simple, honest service.</p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <i class="ph-fill ph-handshake"></i>
+                            <span>Honest & transparent</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="ph-fill ph-timer"></i>
+                            <span>Fast delivery</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="ph-fill ph-heart"></i>
+                            <span>Built with care</span>
+                        </div>
                     </div>
-                    <h3>Google Maps setup</h3>
-                    <p>Make sure your business appears on the map when locals search for your services.</p>
-                </div>
-
-                <div class="feature-card reveal" style="transition-delay: 150ms;">
-                    <div class="icon-sq bg-green-light text-green">
-                        <i class="ph-fill ph-desktop"></i>
-                    </div>
-                    <h3>Basic SEO</h3>
-                    <p>We use the right wording and structure so Google understands what your business offers.</p>
-                </div>
-
-                <div class="feature-card reveal" style="transition-delay: 300ms;">
-                    <div class="icon-sq bg-yellow-light text-yellow">
-                        <i class="ph-fill ph-users"></i>
-                    </div>
-                    <h3>Helping customers find the business</h3>
-                    <p>Combining design and search readiness to help neighborhood customers discover you easily.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact CTA Section -->
-    <section class="contact-section" id="contact">
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
         <div class="container">
             <div class="contact-wrapper">
-                <div class="contact-info">
-                    <h2>Contact me to get started</h2>
-                    <p>Let's talk about your business. Get your free demo website today.</p>
+                <div class="contact-info reveal">
+                    <span class="section-tag">Let's talk</span>
+                    <h2>Ready to get your business online?</h2>
+                    <p>Send me a message and I'll get back to you within 24 hours. I'll build a free demo so you can see exactly what your website could look like — no strings attached.</p>
+
+                    <div class="contact-features">
+                        <div class="contact-feature">
+                            <i class="ph-fill ph-clock"></i>
+                            <div>
+                                <strong>Quick response</strong>
+                                <span>I reply within 24 hours</span>
+                            </div>
+                        </div>
+                        <div class="contact-feature">
+                            <i class="ph-fill ph-gift"></i>
+                            <div>
+                                <strong>Free demo</strong>
+                                <span>See your site before paying</span>
+                            </div>
+                        </div>
+                        <div class="contact-feature">
+                            <i class="ph-fill ph-shield-check"></i>
+                            <div>
+                                <strong>No risk</strong>
+                                <span>Only pay if you love it</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="contact-form-container glass-card">
-
+                <div class="contact-form-card reveal">
                     <form id="leadForm" name="contact" method="POST" data-netlify="true" class="form">
                         <input type="hidden" name="form-name" value="contact">
-                        <h3 class="mb-md">Contact me to get started</h3>
+                        <h3>Contact me to get your free demo</h3>
                         <div class="form-group">
-                            <label>Your Name</label>
-                            <input type="text" name="name" required>
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
                         </div>
-
                         <div class="form-group">
-                            <label>Business Name</label>
-                            <input type="text" name="business" required>
+                            <label for="business">Business Name</label>
+                            <input type="text" id="business" name="business" placeholder="My Awesome Business" required>
                         </div>
-
                         <div class="form-group">
-                            <label>Email</label>
-                            <input type="email" name="email" required>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
                         </div>
-
-                        <!-- NY -->
                         <div class="form-group">
-                            <label>Website (if you have one)</label>
-                            <input type="url" name="website" placeholder="https://...">
+                            <label for="message">Tell me about your project</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="What does your business do? What would you like on your website?"></textarea>
                         </div>
-
-                        <!-- NY -->
-                        <div class="form-group">
-                            <label>What do you want help with?</label>
-                            <textarea name="message" rows="4" placeholder="Describe your idea..."></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary btn-block">Send</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">
+                            <i class="ph-bold ph-paper-plane-tilt"></i>
+                            Send message
+                        </button>
                     </form>
                 </div>
             </div>
@@ -312,29 +481,27 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <a href="#" class="logo">
-                        <i class="ph-fill ph-rocket-launch"></i>
+                        <div class="logo-icon">
+                            <i class="ph-fill ph-rocket-launch"></i>
+                        </div>
                         <span>Webgrowth</span>
                     </a>
-                    <p>Building honest, modern websites for small businesses.</p>
+                    <p>Modern websites for small businesses.<br>Built with care in Sweden.</p>
                 </div>
-                <div class="footer-links">
+                <div class="footer-nav">
+                    <h4>Navigation</h4>
                     <a href="#services">Services</a>
-                    <a href="#process">Process</a>
-                    <a href="#visibility">Visibility</a>
+                    <a href="#process">How it works</a>
+                    <a href="#portfolio">Examples</a>
+                    <a href="#pricing">Pricing</a>
                     <a href="#contact">Contact</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Webgrowth Freelance.</p>
+                <p>&copy; 2026 Webgrowth. All rights reserved.</p>
             </div>
         </div>
     </footer>
-
-    <!-- Sticky WhatsApp
-    <a href="https://wa.me/15551234567" class="whatsapp-sticky pulse" target="_blank" rel="noopener noreferrer"
-        aria-label="Contact on WhatsApp">
-        <i class="ph-fill ph-whatsapp-logo"></i>
-    </a> -->
 
     <script src="script.js"></script>
 </body>
